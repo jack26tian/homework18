@@ -1,0 +1,225 @@
+/* Nav Bar */
+.body {
+    background-color: lightcyan;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.mainnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbarbutton {
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    text-decoration: none;
+    line-height: 29px;
+    color: black;
+
+}
+
+.logo {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 1424px;
+    margin-top: 18.17px;
+}
+
+.navbutton {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+/* Content1 */
+.first {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.heroimage {
+    width: 850px;
+    height: 800px;
+    left: 600px;
+    top: 112px;
+}
+
+.HelpusGrow {
+    position: absolute;
+    width: 557px;
+    height: 800px;
+    left: 10px;
+    top: 81px;
+    background-color: #355E3B;
+
+
+    font-family: 'lilita one';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: white;
+}
+
+.whereyourdonationsgo {
+    position: absolute;
+    width: 557px;
+    height: 800px;
+    left: 10px;
+    top: 486px;
+
+    font-family: 'lilita one';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 39px;
+    color: white;
+}
+
+.paragraph {
+    position: absolute;
+    width: 557px;
+    height: 800px;
+    left: 10px;
+    top: 539px;
+
+    font-family: 'lilita one';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+}
+
+.heart1 {
+    display: flex;
+    left: 10px;
+    top: 539px;
+    background-color: #355E3B;
+}
+
+.heart2 {
+    position: absolute;
+    width: 163px;
+    height: 148.68px;
+    left: 393px;
+    top: 673px;
+    background-color: aliceblue;
+}
+
+.heart3 {}
+
+.button-donate {
+    position: absolute;
+    width: 183.64px;
+    height: 37.6px;
+    left: 567.55px;
+    top: 760.29px;
+
+    /* Bright Green */
+
+    background: #98AD39;
+    border-radius: 30.6074px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.7409px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+/* Content2 */
+.Donatenowtext {
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    
+    color: #355E3B;
+
+}
+.selectanamount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+color: #161916;
+}
+
+.50, .100, .500, .1000, .2500, .5000, .12500, .CustomAmount  {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+color: #161916;
+}
+.content2 {
+    position: absolute;
+    width: 1264px;
+    height: 791px;
+    left: 124px;
+    top: 1137px;
+
+    background: #FFFFFF;
+    
+    /* Hunter Green */
+
+    border: 5px solid #355E3B;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    
+}
+.donateicon {
+    position: absolute;
+}
+/* Footer */
+.footermenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    
+    width: 820px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #161916;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+/* Light Cyan */
+
+background: #D8E1DE;
